@@ -1,0 +1,5 @@
+# AGK Build Files
+*.exe
+*.layout
+*.cbTemp
+*.byc
