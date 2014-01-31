@@ -1,0 +1,19 @@
+PARSER ERROR
+------------
+Cannot perform 'integer' cast on type 'FS@GetDataString@$S3' at line 31 inside APIs\File Manipulation\File Manipulation.agc.
+
+PROGRAM TRACE
+-------------
+    if returnStr <> "" then exitfunction returnStr
+endfunction 
+
+ERROR TRACE
+-----------
+Failed to 'DoInstruction::CastAllParametersToInstruction'
+Failed to 'DoAssignment::DoInstruction'
+Failed to 'DoStatement(TokenID)'
+Failed to 'DoUserFunction::DoBlock'
+Failed to 'DoStatement(TokenID)'
+Failed to 'DoBlock(0)'
+Failed to 'MakeStatements'
+Failed to Parse Program (MakeDBM->MakeProgram)'

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Main_API" />
+		<Option pch_mode="2" />
+		<Option compiler="agk_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Main_API" prefix_auto="1" extension_auto="1" />
+				<Option object_output="" />
+				<Option type="0" />
+				<Option compiler="agk_compiler" />
+			</Target>
+			<Target title="Release">
+				<Option output="Main_API" prefix_auto="1" extension_auto="1" />
+				<Option object_output="" />
+				<Option type="0" />
+				<Option compiler="agk_compiler" />
+			</Target>
+		</Build>
+		<Unit filename="APIs\File Manipulation\File Manipulation.agc">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="APIs\Logging\Logging.agc">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="APIs\Main_API.agc">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="APIs\Question Messages\Question Message.agc">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="APIs\SME\Sprite Manipulation Enhancement.agc">
+			<Option compile="0" />
+			<Option link="0" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.agc">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="setup.agc">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
