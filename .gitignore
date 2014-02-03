@@ -213,3 +213,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+############
+## AGK
+############
+# AGK Build Files
+*.exe
+*.layout
+*.cbTemp
+*.byc
