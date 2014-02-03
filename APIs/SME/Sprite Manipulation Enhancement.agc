@@ -6,7 +6,7 @@ RemStart
     SME_Sync ( )
         This goes instead of the normal sync. So instead of using 'Sync ()', you use 'SME_Sync ()'.
 
-    Remeber to include this file at the start of your code!
+    Remember to include this file at the start of your code, and call SME_Setup()! Or, if it is in the 'Main_API' library, you should include that file at the start and call 'SetupAPIs()'
 
     Hidden Commands:
 _SME_ScaleAdjust
