@@ -1,0 +1,21 @@
+//  AGK Sample Code
+rem AGK Sample Code
+`   AGK Sample Code
+
+print("Hello world")
+SomeFunction(1, 2)
+var = 42
+print(var)
+gosub _jumper
+while timer() < 5 : SME_Sync ( ) : endwhile
+end
+
+_jumper:
+a=123
+return
+
+function SomeFunction(a, b)
+	x = a
+	x = x + 1
+	print(x)
+endfunction

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_lexer_properties>
+<CodeBlocks_lexer_properties>
+		<Lexer name="api"
+				index="3"
+				filemasks="*.agc">
+				<Style name="Default"
+						index="0"
+						fg="0,0,0"
+						bg="255,255,255"
+						bold="0"
+						italics="0"
+						underlined="0"/>
+				<Style name="Comment"
+						index="1,2"
+						fg="0,128,0"/>
+				<Style name="Number"
+						index="4"
+						fg="0,128,0"/>
+				<Style name="Keyword"
+						index="5"
+						fg="0,0,160"
+						bold="1"/>
+				<Style name="User keyword"
+						index="16"
+						fg="0,0,128"
+						bold="1"/>
+				<Style name="String"
+						index="6,12"
+						fg="139,0,0"/>
+				<Style name="Character"
+						index="7"
+						fg="224,160,0"/>
+				<Style name="UUID"
+						index="8"
+						fg="0,0,0"/>
+				<Style name="Preprocessor"
+						index="9"
+						fg="0,160,0"/>
+				<Style name="Operator"
+						index="10"
+						fg="255,0,0"/>
+				<Style name="Selection"
+						index="-99"
+						bg="192,192,192"/>
+				<Style name="Active line"
+						index="-98"
+						bg="255,255,160"/>
+				<Style name="Breakpoint line"
+						index="-2"
+						bg="255,160,160"/>
+				<Style name="Debugger active line"
+						index="-3"
+						bg="160,160,255"/>
+				<Style name="Compiler error line"
+						index="-4"
+						bg="255,128,0"/>
+				<Style name="Matching brace highlight"
+						index="34"
+						bg="128,255,255"
+						bold="1"/>
+				<Style name="No matching brace highlight"
+						index="35"
+						fg="255,255,255"
+						bg="255,0,0"
+						bold="1"/>
+				<Keywords>
+                        <!-- Primary keywords and identifiers -->
+                        <Set index="0"
+                            value="if elseif else then end do loop while endwhile repeat until
+                                   for to next step and xor or not function exitfunction endfunction global dim undim inc dec goto gosub return type endtype integer float string DWORD as exit include include constant endif select endselect case endcase default true false KEY_A KEY_B KEY_C KEY_D KEY_E KEY_F KEY_G KEY_H KEY_I KEY_J KEY_K KEY_L KEY_M KEY_N KEY_O KEY_P KEY_Q KEY_R KEY_S KEY_T KEY_U KEY_V KEY_W KEY_X KEY_Y KEY_Z KEY_SHIFT KEY_CTRL KEY_ENTER KEY_ESC KEY_TAB KEY_COMMA KEY_PERIOD KEY_FSLASH KEY_FORWARDSLASH KEY_BSLASH KEY_BACKWORDSLASH KEY_SEMICOLON KEY_SBRACKETOPEN KEY_SQUAREBRACKETOPEN KEY_SBRACKETCLOSE KEY_SQUAREBRACKETCLOSE KEY_APOSTROPHE KEY_HASHTAG KEY_EQUALS KEY_MINUS KEY_ALTGR KEY_INSERT KEY_HOME KEY_DELETE KEY_BACKSPACE KEY_END KEY_PGUP KEY_PAGEUP KEY_PGDOWN KEY_PAGEDOWN KEY_NUMSLASH KEY_NUMMULTI KEY_NUMMULTIPLY KEY_SCROLLLOCK KEY_GRAVE KEY_F1 KEY_F2 KEY_F3 KEY_F4 KEY_F5 KEY_F6 KEY_F7 KEY_UP KEY_DOWN KEY_LEFT KEY_RIGHT"/>
+
+                        <!-- Secondary keywords and identifiers -->
+                        <Set index="1"
+                            value="from-external-file"/>
+                        <!-- Documentation comment keywords -->
+						<Set index="2"
+                            value="skip $ @ \ & < > # { }"/>
+				</Keywords>
+				<SampleCode value="lexer_api.sample"
+						breakpoint_line="21"
+						debug_line="23"
+						error_line="24"/>
+                <LanguageAttributes
+                    LineComment="//"
+                    StreamCommentStart="/*"
+                    StreamCommentEnd="*/"
+                    BoxCommentStart="/* "
+                    BoxCommentMid=" * "
+                    BoxCommentEnd=" */"
+                    CaseSensitive="1"/>
+		</Lexer>
+</CodeBlocks_lexer_properties>
